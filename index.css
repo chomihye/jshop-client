@@ -8,7 +8,7 @@ a {
 }
 
 .head-container {
-  width: 90%;
+  width: 80%;
   margin: auto;
   display: flex;
   align-items: center;
@@ -27,6 +27,11 @@ a {
 .menu a {
   margin-right: 10px;
 }
+
+.best {
+  color: lightcoral;
+}
+
 .sale {
   color: lightskyblue;
 }
@@ -50,7 +55,7 @@ a {
 }
 
 .best-container {
-  width: 85%;
+  width: 80%;
   margin: auto;
 }
 
@@ -70,6 +75,8 @@ a {
 .product-img img {
   margin-bottom: 20px;
   border-radius: 10px;
+  width: 350px;
+  height: 450px;
 }
 
 .pd-name {
@@ -80,4 +87,36 @@ a {
 .pd-price {
   font-size: 18px;
   font-weight: 600;
+}
+
+.new-container {
+  width: 80%;
+  margin: auto;
+}
+
+.new-header {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.newimg-container {
+  display: flex;
+  justify-content: space-between;
+}
+.new-img img {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 350px;
+  height: 450px;
+}
+
+.banner-container {
+}
+
+.banner-img {
+  display: flex;
+}
+
+.banner-img img {
+  width: 100%;
+  height: 300px;
 }
