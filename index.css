@@ -1,10 +1,13 @@
 * {
   box-sizing: border-box;
 }
+body {
+  margin: 0px;
+}
 
 a {
   text-decoration: none;
-  color: black;
+  color: inherit;
 }
 
 .head-container {
@@ -24,6 +27,7 @@ a {
   font-size: 22px;
   margin-right: 40px;
 }
+
 .menu a {
   margin-right: 10px;
 }
@@ -48,68 +52,15 @@ a {
 
 .icons {
   font-size: 20px;
-  color: #999;
 }
+
 .icons i {
   margin-right: 20px;
 }
 
-.best-container {
-  width: 80%;
-  margin: auto;
-}
-
-.best-header {
-  font-size: 25px;
-  margin-bottom: 20px;
-}
-
-.bestimg-container {
-  display: flex;
-  justify-content: space-between;
-}
-.product-img {
-  display: flex;
-  flex-direction: column;
-}
-.product-img img {
-  margin-bottom: 20px;
-  border-radius: 10px;
-  width: 350px;
-  height: 450px;
-}
-
-.pd-name {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.pd-price {
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.new-container {
-  width: 80%;
-  margin: auto;
-}
-
-.new-header {
-  font-size: 25px;
-  margin-bottom: 20px;
-}
-.newimg-container {
-  display: flex;
-  justify-content: space-between;
-}
-.new-img img {
-  margin-bottom: 20px;
-  border-radius: 10px;
-  width: 350px;
-  height: 450px;
-}
-
+/* 배너 */
 .banner-container {
+  margin-bottom: 80px;
 }
 
 .banner-img {
@@ -118,5 +69,30 @@ a {
 
 .banner-img img {
   width: 100%;
-  height: 300px;
+  height: 400px;
 }
+
+.shiphd-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ship-header {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.more-btn {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #999;
+  border-radius: 20px;
+  background-color: white;
+  font-size: 16px;
+  color: #999;
+}
+.shippd-name {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
