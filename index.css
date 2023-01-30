@@ -72,14 +72,9 @@ a {
   height: 400px;
 }
 
-.shiphd-container {
+.sale-container {
   display: flex;
   justify-content: space-between;
-}
-
-.ship-header {
-  font-size: 25px;
-  margin-bottom: 20px;
 }
 
 .more-btn {
@@ -91,8 +86,31 @@ a {
   font-size: 16px;
   color: #999;
 }
-.shippd-name {
-  font-size: 20px;
-  margin-bottom: 5px;
+.price-container {
+  margin-bottom: 80px;
 }
 
+.org-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 15px;
+}
+.sale-percent {
+  font-size: 18px;
+  font-weight: 500;
+  color: lightcoral;
+}
+.btn-container{
+  margin-bottom: 20px;
+}
+
+.time-btn {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #999;
+  margin-right: 10px;
+  border-radius: 20px;
+  background-color: white;
+  font-size: 16px;
+  color: #999;
+}
